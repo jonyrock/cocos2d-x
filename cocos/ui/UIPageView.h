@@ -241,7 +241,7 @@ protected:
     float getPositionXByIndex(ssize_t idx)const;
     ssize_t getPageCount()const;
 
-    void updateBoundaryPages();
+    virtual void updateBoundaryPages();
     virtual bool scrollPages(float touchOffset);
     void movePages(float offset);
     void pageTurningEvent();
